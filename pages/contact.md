@@ -1,6 +1,32 @@
 ---
 layout: misc
 title: Contact
+location:
+    longitude: 5.240923
+    latitude: 50.517893
 ---
 
-This theme is completely free and open source software. You may use it however you want, as it is distributed under the [MIT License](http://choosealicense.com/licenses/mit/). If you are having any problems, any questions or suggestions, feel free to [tweet at me](https://twitter.com/intent/tweet?text=My%question%about%Millennial%is:%&amp;via=paululele), or [file a GitHub issue](https://github.com/lenpaul/Millennial/issues/new).
+# Adresse
+
+~~~~
+La Dérive sprl
+Grand Place 10
+B-4500 Huy
+Belgique
+~~~~
+
+- Téléphone: +32 85 212514
+- Email: [info@laderive.com](mailto:info@laderive.com)
+
+# Horaires
+
+- Lundi - 9:30 - 18:00
+- Mardi - 9:30 - 18:00
+- Mercredi - 9:30 - 18:00
+- Jeudi - 9:30 - 18:00
+- Vendredi - 9:30 - 18:00
+- Samedi - 10:00 - 18:00
+
+# Localisation
+
+{% google_map zoom="14" %}

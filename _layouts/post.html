@@ -35,6 +35,7 @@ layout: default
     {{ content }}
   </article>
 
+<!--
   <div class="post-share">
     <div class="post-date">Feel free to share!</div>
     <div class="sharing-icons">
@@ -43,9 +44,9 @@ layout: default
       <a href="https://plus.google.com/share?url={{ site.github.url }}{{ page.url }}" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
     </div>
   </div>
+-->
 
   <div class="related">
-    <h2>You may also enjoy...</h2>
     {% assign listed_posts_urls = page.url | split: ' ' %}
     <ul class="related-posts">
       {% for tag in page.tags %}
